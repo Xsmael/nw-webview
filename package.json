@@ -1,0 +1,35 @@
+{
+  "main": "browser.html",
+  "name": "nwjs-webview",
+  "description": "nwjs webview library to run web apps directly on desktop either local or on internet",
+  "version": "0.0.1",
+  "keywords": [
+    "application",
+    "web-view",
+    "webview",
+    "browser",
+    "nwjs",
+    "node-webkit"
+  ],
+  "window": {
+    "title": " ",
+    "icon": "img/icon.png",
+    "toolbar": false,
+    "frame": false,
+    "width": 1500,
+    "height": 890,
+    "min_width": 450,
+    "min_height": 350
+  },
+  "webkit": {
+    "plugin": true
+  },
+
+  "author": "Xsm@el",
+  "license": "MIT",
+
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "noogger": "^0.1.8"
+  }
+}

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/browser.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="js/browser.js"></script>
+        <!-- <script src="js/live-reload.js"></script> -->
+    </head>
+
+    <body>
+        
+        <div id='splash' class='splash'>
+            <img src="img/loader.gif" alt="">
+        </div>
+
+        <div class="drag" id="drag">
+            <div class="window-buttons">
+                    <i class="material-icons" onclick="minWindow();">remove</i>
+                    <i class="material-icons"  onclick="maxWindow();">crop_square</i>
+                    <i class="material-icons"  onclick="closeWindow();">close</i>
+            </div>
+        </div>     
+        <iframe id='webview'  onLoad="viewLoaded(this.contentWindow.location);" nwfaketop nwdisable/>
+
+    </body>
+    
+</html>
