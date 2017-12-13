@@ -1,5 +1,5 @@
 {
-  "main": "browser.html",
+  "main": "view.html",
   "name": "nwjs-webview",
   "description": "nwjs webview library to run web apps directly on desktop either local or on internet",
   "version": "0.0.1",
